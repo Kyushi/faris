@@ -2,24 +2,31 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<title><?php echo siteTitle(); ?></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta name="author" content="Franziskus Nakajima">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta id="theme-color" name="theme-color" content="#cb0000">
+		<?php
+		 	echo requireCss(themeUrl() . "css/bootstrap.min.css");
+			echo requireCss(themeUrl() . "css/responsive.css");
+			?>
 		<?php
 			call_anchor("css_frontend");
 			call_anchor("js_frontend");
 		?>
 	</head>
 	<body>
-		<div id="header">
-			<center>
-				<div id="title">
-					<a href="<?php echo linkToSite(); ?>"><?php echo siteTitle(); ?></a>
+		<div class="container">
+			<header class="row">
+				<div id="title" class="col-xs-12">
+					<center>
+						<h1><a href="<?php echo linkToSite(); ?>"><?php echo siteTitle(); ?></a></h1>
+					</center>
 				</div>
-			</center>
-			<center>
-				<div id="menu">
+				<nav class="col-xs-12">
 						<?php echo pageList(); ?>
-				</div>
-			</center>
-		</div>
-		<div id="main">
-			<div id="content">
+				</nav>
+			</header>
+			<div id="main" class="row">
+				<div id="content" class="col-xs-12">
