@@ -1,6 +1,6 @@
 <?php include_once "header.php"; ?>
-				
-				<div class="view">
+
+				<div class="view row">
 					<?php echo projectView(); ?>
 				</div>
 

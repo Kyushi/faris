@@ -19,10 +19,8 @@
 	<body>
 		<div class="container">
 			<header class="row">
-				<div id="title" class="col-xs-12">
-					<center>
+				<div id="title" class="col-xs-12 centered">
 						<h1><a href="<?php echo linkToSite(); ?>"><?php echo siteTitle(); ?></a></h1>
-					</center>
 				</div>
 				<nav class="col-xs-12">
 						<?php echo pageList(); ?>

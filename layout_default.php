@@ -8,8 +8,8 @@
 					<?php echo pageText(); ?>
 				</div>
 				<?php endif; ?>
-				
-				<div class="view">
+
+				<div class="view row">
 					<?php
 						if ( viewingProjectTags() )
 							echo '<ul>' . projects(	) . '</ul>';
@@ -17,5 +17,5 @@
 							echo pageContent();
 					?>
 				</div>
-				
+
 <?php include_once "footer.php"; ?>
