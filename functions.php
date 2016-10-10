@@ -1,19 +1,19 @@
 <?php
-	function install_mino()
+	function install_faris()
 	{
 		global $manager;
-		
+
 		$manager->clerk->updateSettings(
 			array(
 				"index_page"	=>	array( 0 )
 			)
 		);
 	}
-	
-	function uninstall_mino()
+
+	function uninstall_faris()
 	{
 		global $manager;
-		
+
 		$getPages= $manager->clerk->query_select( "pages" );
 		while ( $page= $manager->clerk->query_fetchArray( $getPages ) )
 		{
