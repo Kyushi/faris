@@ -1,0 +1,287 @@
+/*
+ * Defaults
+ */
+ @font-face {
+     font-family: Epoca;
+     src: url(EpoClassic-Lig-webfont.woff);
+ }
+
+ @font-face {
+     font-family: Questa;
+     src: url(2-questa_grande_regular_31-webfont.woff);
+ }
+
+html, body {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	/*font-size: 62.5%;*/
+}
+
+body {
+	padding: 0;
+	font-family: Epoca, Arial, Verdana, sans-serif;
+	font-size: 0.8em;
+	line-height: 1.2em;
+}
+
+a {
+	color: #DC0033;
+	text-decoration: none;
+}
+
+
+img {
+	border: 0;
+}
+
+
+p {
+	padding: 0;
+	margin: 0px 0 10px 0;
+}
+
+p a:hover{
+	color:#000;
+	}
+
+h1 {
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/*
+ * Utilities
+ */
+
+.align-left {
+	float: left;
+}
+
+.align-right {
+	float: right;
+}
+
+.align-center {
+	margin: 0 auto 0 auto;
+}
+
+/*
+ * Sections
+ */
+
+#header {
+	position: relative;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	width: 100%;
+}
+
+#header #title a {
+	font-weight: normal;
+	text-decoration: none;
+	color: #000;
+	font-size: 1.6em;
+}
+
+#header #title a:hover {
+	text-decoration: none;
+	color: #DC0033;
+}
+
+#content {
+	width: 100%;
+}
+
+#main {
+	width: 960px;
+	margin: 47px auto 0 auto;
+}
+
+/*
+ * Menu
+ */
+
+#menu {
+	margin-top: 20px;
+	font-family: Questa;
+	font-size: 1em;
+	float: left;
+	width: 100%;
+	overflow: hidden;
+}
+
+#menu a {
+	color: #000;
+	display:block;
+}
+
+#menu a:hover {
+	background-color: #FFF;
+	color: #FF0000;
+}
+
+#menu ul {
+	position: relative;
+	clear: left;
+	float: left;
+	display: block;
+	left: 50%;
+	text-align: center;
+}
+
+#menu ul li{
+	position: relative;
+	display: block;
+	float: left;
+	margin-right: 27px;
+	right: 50%;
+}
+
+#menu ul li:last-child {
+	margin-right: 0;
+}
+
+#menu li.sectionTitle {
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+#menu .active a {
+	color: #DC0033;
+}
+
+#menu .active a:hover, .project a:hover {
+	color: #FF0000;
+}
+
+/*
+ * Projects
+ */
+
+ul#projects {
+	margin-top: 20px;
+}
+
+li.project {
+	float: left;
+  margin: 0 20px 0 20px;
+}
+
+
+.fileGroup {
+	clear: both;
+}
+
+.textblock {
+	float: left;
+	clear: both;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 450px;
+	line-height: 1.6em;
+}
+
+.file {
+	margin-bottom: 10px;
+}
+
+.file img {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.title {
+	font-weight: bold;
+}
+
+.pageText {
+	margin-bottom: 20px;
+	width: 450px;
+}
+
+a.project {
+	color: transparent;
+}
+
+a.project:hover {
+	color: transparent;
+	text-decoration: none;
+}
+
+.projectInfo {
+	margin-bottom: 20px;
+}
+
+.slideshow-nav a {
+	color: #000;
+}
+
+.slideshow-nav a:hover {
+	text-decoration: underline;
+}
+
+.tags {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.tags a {
+	text-decoration: underline;
+}
+
+.tags a:hover {
+	text-decoration: none;
+}
+
+.file .info {
+	font-size: 0.9em;
+	width: 450px;
+}
+
+.file .info .caption {
+	line-height: 1.4em;
+}
+
+/*
+ * Blog
+ */
+
+.post {
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #CCC;
+	width: 600px;
+}
+
+.postTitle a:hover {
+	text-decoration: underline;
+}
+
+.post img {
+	display: block;
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+.post .text {
+	margin: 20px 0 20px 0;
+}
+
+.post .more {
+	color: #DC0033;
+}
+
+.post .more:hover {
+	color: #FF0000;
+}
