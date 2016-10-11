@@ -1,10 +1,14 @@
+##### *currently under construction - do not use* #####
+
 # Faris #
 
 ### A responsive theme for The Secretary CMS ###
 
+
 Based on Mino theme by Mikael Stær & Jack Shepherd
 
 Find the Secretary here: http://www.secretarycms.com/
+
 Repo here: https://github.com/mikaelstaer/The-Secretary
 
 ___
