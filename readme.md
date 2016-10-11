@@ -16,3 +16,7 @@ ___
 1.  Copy folder "faris" into the themes folder of your existing Secretary installation
 * Log in to your admin page, then select "Design" -> "Themes"
 * Click on "use this theme" under "Faris"
+
+___
+
+Faris makes use of Bootstrap 3.3.7's grid system. Minified CSS is included, feel free to replace with your own bootstrap css for additional functionality. This version includes grid system and modal.
