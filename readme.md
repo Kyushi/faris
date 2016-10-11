@@ -1,7 +1,7 @@
 ##### *currently under construction - do not use* #####
 
 # Faris #
-### A responsive theme for The Secretary CMS ###
+### A responsive theme for [Mikael Staer](https://github.com/mikaelstaer)'s The Secretary CMS ###
 
 Version 0.1
 
