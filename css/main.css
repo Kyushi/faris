@@ -171,8 +171,18 @@ ul#projects {
 
 li.project {
 	float: left;
+  min-height: 290px;
+  margin-top: 15px;
 }
 
+.project a {
+  width: 100%;
+}
+.project a img {
+  margin-top: 15px;
+  width: 100%;
+  height: auto;
+}
 
 .fileGroup {
 	clear: both;
@@ -184,6 +194,7 @@ li.project {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	line-height: 1.6em;
+  width: 100%;
 }
 
 .file {
