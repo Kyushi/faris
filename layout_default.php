@@ -4,7 +4,7 @@
 					$pageText= pageText();
 					if ( !empty( $pageText ) && viewingProjectTags() == false ):
 				?>
-				<div class="pageText">
+				<div class="pageText row">
 					<?php echo pageText(); ?>
 				</div>
 				<?php endif; ?>

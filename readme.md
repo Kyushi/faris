@@ -1,4 +1,4 @@
-##### *currently under construction - do not use* #####
+## *development halted, see [issues](https://github.com/Kyushi/faris/issues/1)* ##
 
 # Faris #
 ### A responsive theme for [Mikael Staer](https://github.com/mikaelstaer)'s The Secretary CMS ###
