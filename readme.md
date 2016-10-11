@@ -5,6 +5,7 @@
 Based on Mino theme by Mikael Stær & Jack Shepherd
 
 Find the Secretary here: http://www.secretarycms.com/
+Repo here: https://github.com/mikaelstaer/The-Secretary
 
 ___
 ### Use: ###
